@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+height: 50px;
+width: 100vmax;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: green;
+}
+
+#conteudo {
+    width: 450px;
+    height: auto;
+    padding: 15px;
+    color: black;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 2px 3px #888888;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+#contar {
+    width: 60px;
+    border: none;
+    height: 23px;
+    color: white;
+    background-color: green;
+    box-shadow: 1px 1px #888888;
+}
+
+#contar:hover {
+    cursor: pointer;
+
+}
